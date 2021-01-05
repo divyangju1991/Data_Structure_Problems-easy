@@ -7,7 +7,7 @@ Explanation: Array elements after
 sorting it in wave form are 
 2 1 4 3 5.
 */
-class convertToWave
+class ConvertToWave
 {
 
 	public void convertToWave(int arr[], int n){
