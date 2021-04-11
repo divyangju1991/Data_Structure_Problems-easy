@@ -1,0 +1,28 @@
+(1) Use Math equestion solve problem like sum of Natural number.
+(2) We always understand Base Case, Average Case and Worst Case
+(3) 
+	Big O = Exact or Upper
+	Theta  = Exact
+	Big Omega = Exact or Lower (used in gaming application (minimum user) and string n! permutation (minimum n!))
+		
+(4)
+	i = i+c or i = i-c
+		=> Theta n/2 or Theta n
+	i = i*c or i = i/c
+		=> Theta log n base c
+	i = pow(i,c)
+		=> Theta log log n
+		
+(5)
+	C < log logn < log n < n^1/3 < n^1/2 < n < n^2 < n^3 < n^4 < 2^n < n^n
+	
+(6)
+    time complexity for recursive = hight of tree
+
+(7)
+	T(n-1) + T(n-2) + C = c +2c + 4c = O(2^n)
+	
+(8)
+    1 to Infiniative consider as = 
+	
+	

@@ -1,0 +1,13 @@
+(1) How it works ?
+=> I know it works as stack but stil don't know how use index which we passed in method as argument.
+=> Time complexity of recursion is O(n) because of N times function calls.
+
+sum(5) n=5 => sum(4) n=4 => sum(3) n=3 => sum(2) n=2 => sum(1) n=1 
+																	Ans = (1) => (1+2) => (3+3) => (6+4) => (10+5)
+																	      n=1     n=2      n=3      n=4       n=5
+
+//base condition
+if(n == 1) return 1;
+return sum(n-1)+n;
+
+sum 
